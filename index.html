@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Deepak Kumar - B.Tech CSE (AI/ML) Student Portfolio. Exploring AI/ML, Python, and Software Development." />
+  <title>Deepak Kumar | Developer Portfolio</title>
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>DK<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#academics" class="nav-link">Coursework</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#goals" class="nav-link">Goals</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark/light mode">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-dot"></span> Open to Internships & Collaborative Learning
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Deepak Kumar</span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science Engineering Student | Exploring AI/ML | Python Developer | Future Software Engineer
+          </p>
+          <p class="hero-description">
+            Focused on building strong computational fundamentals, writing clean code, and experimenting with artificial intelligence models and modern web applications.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-code-fork"></i> Explore My Projects
+            </a>
+            <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-github"></i> Visit My GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-buttons">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="window-title">deepak_profile.py</span>
+            </div>
+            <pre class="window-code"><code><span class="token-keyword">class</span> <span class="token-class">EngineerInTraining</span>:
+    <span class="token-keyword">def</span> <span class="token-function">__init__</span>(<span class="token-variable">self</span>):
+        <span class="token-variable">self</span>.name = <span class="token-string">"Deepak Kumar"</span>
+        <span class="token-variable">self</span>.major = <span class="token-string">"CSE (AI & ML)"</span>
+        <span class="token-variable">self</span>.institution = <span class="token-string">"Lovely Professional University"</span>
+        <span class="token-variable">self</span>.core_focus = [<span class="token-string">"Python"</span>, <span class="token-string">"Algorithms"</span>, <span class="token-string">"Web Dev"</span>]
+        
+    <span class="token-keyword">def</span> <span class="token-function">philosophy</span>(<span class="token-variable">self</span>):
+        <span class="token-keyword">return</span> <span class="token-string">"Learn by building, measuring, and refining."</span>
+
+developer = EngineerInTraining()
+<span class="token-keyword">print</span>(developer.philosophy())</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card highlight-card">
+            <h3>Who I Am</h3>
+            <p>
+              I am an undergraduate Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at Lovely Professional University (LPU), Punjab.
+            </p>
+            <p>
+              My core curiosity revolves around understanding how complex systems operate under the hood. From algorithm logic and clean code architecture to developing intelligent interfaces, I view programming as both a creative craft and an analytical discipline.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>My Philosophy</h3>
+            <p>
+              I believe consistent, hands-on experimentation beats passive theory. I spend my time outside the lecture hall writing Python scripts, exploring web layout design, and practicing version control with Git.
+            </p>
+            <div class="stat-pills">
+              <span class="pill"><i class="fa-solid fa-book-open"></i> Diligent Learner</span>
+              <span class="pill"><i class="fa-solid fa-code"></i> Project-Driven</span>
+              <span class="pill"><i class="fa-solid fa-microchip"></i> AI/ML Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Education Section -->
+    <section id="education" class="section bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Timeline</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-badge">Currently Enrolled</div>
+              <h3 class="timeline-title">Bachelor of Technology (B.Tech)</h3>
+              <h4 class="timeline-subtitle">Computer Science and Engineering</h4>
+              <p class="timeline-specialization"><strong>Specialization:</strong> Artificial Intelligence & Machine Learning</p>
+              <div class="timeline-meta">
+                <span><i class="fa-solid fa-building-columns"></i> Lovely Professional University</span>
+                <span><i class="fa-solid fa-location-dot"></i> Punjab, India</span>
+                <span><i class="fa-solid fa-user-graduate"></i> Undergraduate Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Programming</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span class="skill-status learning">Learning</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5</span>
+                  <span class="skill-status intermediate">Solid Basics</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CSS3</span>
+                  <span class="skill-status intermediate">Solid Basics</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span class="skill-status beginner">Beginner</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Computer Science Fundamentals -->
+          <div class="skill-category-card">
+            <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>Computer Science</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git & GitHub</span>
+                  <span class="skill-status learning">Learning</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 55%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Operating Systems</span>
+                  <span class="skill-status beginner">Fundamentals</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Computer Fundamentals</span>
+                  <span class="skill-status intermediate">Strong Basics</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Problem Solving</span>
+                  <span class="skill-status learning">Active Practice</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 55%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Areas of Interest -->
+          <div class="skill-category-card">
+            <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h3>Areas of Interest</h3>
+            <ul class="interest-list">
+              <li><i class="fa-solid fa-robot"></i> Artificial Intelligence</li>
+              <li><i class="fa-solid fa-brain"></i> Machine Learning</li>
+              <li><i class="fa-solid fa-laptop-code"></i> Modern Web Development</li>
+              <li><i class="fa-solid fa-gears"></i> Software Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Academic Subjects Section -->
+    <section id="academics" class="section bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">University Studies</span>
+          <h2 class="section-title">Current Academic Subjects</h2>
+        </div>
+        <div class="subjects-grid">
+          <div class="subject-card">
+            <div class="subject-number">01</div>
+            <h4>Python Programming</h4>
+            <p>Syntax, structured flow control, functional paradigms, data structures, and script modularization.</p>
+          </div>
+          <div class="subject-card">
+            <h4>Mathematics for Engineers</h4>
+            <div class="subject-number">02</div>
+            <p>Analytical foundations underpinning computational models and algorithm complexity analysis.</p>
+          </div>
+          <div class="subject-card">
+            <div class="subject-number">03</div>
+            <h4>Internet Programming</h4>
+            <p>Modern client-side design, semantic DOM markup, CSS styling models, and interactive script handling.</p>
+          </div>
+          <div class="subject-card">
+            <div class="subject-number">04</div>
+            <h4>Basic Electronics Engineering</h4>
+            <p>Semiconductor physics, logic gate networks, circuit design, and hardware-software architectural links.</p>
+          </div>
+          <div class="subject-card">
+            <div class="subject-number">05</div>
+            <h4>Orientation to Computing</h4>
+            <p>Foundations of computing systems, binary representation, computer components, and software lifecycles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="status-badge concept">Concept & Research</span>
+              <div class="project-links">
+                <a href="https://github.com/your-github-username/pathfinder-ai" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">PathFinder AI</h3>
+            <p class="project-desc">
+              An architectural concept designed to explore pathfinding heuristics and machine learning algorithms for routing optimization and simulated decision trees.
+            </p>
+            <div class="project-tech-tags">
+              <span>Artificial Intelligence</span>
+              <span>Python</span>
+              <span>Search Algorithms</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/your-github-username/pathfinder-ai" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                View Concept Details <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="status-badge completed">Completed</span>
+              <div class="project-links">
+                <a href="https://github.com/your-github-username/personal-portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Personal Developer Portfolio</h3>
+            <p class="project-desc">
+              A responsive personal portfolio website engineered with clean semantic HTML5, modern CSS3 styling, and modular JavaScript with responsive dark/light theme switching.
+            </p>
+            <div class="project-tech-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/your-github-username/personal-portfolio" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                View Repository <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="status-badge ongoing">Active Repository</span>
+              <div class="project-links">
+                <a href="https://github.com/your-github-username/python-practice-projects" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Python Programming Projects</h3>
+            <p class="project-desc">
+              A curated collection of modular Python exercises, algorithm challenges, utility automation scripts, and foundational practice exercises created during coursework.
+            </p>
+            <div class="project-tech-tags">
+              <span>Python 3</span>
+              <span>Data Structures</span>
+              <span>Scripting</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/your-github-username/python-practice-projects" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                Explore Scripts <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Career Goals Section -->
+    <section id="goals" class="section bg-surface">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Aspirations</span>
+          <h2 class="section-title">Career Goals & Roadmap</h2>
+        </div>
+        <div class="goals-grid">
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-solid fa-laptop-file"></i></div>
+            <h4>Software Development</h4>
+            <p>Architecting reliable, maintainable, and high-performance software systems solving real user needs.</p>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-solid fa-brain"></i></div>
+            <h4>Applied AI & ML</h4>
+            <p>Deepening mathematical and algorithmic comprehension to build intelligent, data-driven systems.</p>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h4>Real-World Applications</h4>
+            <p>Bridging theory and industry applications by delivering end-to-end usable software tools.</p>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h4>Hackathon Challenges</h4>
+            <p>Collaborating under tight turnarounds to solve novel problems and sharpen rapid prototyping skills.</p>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <h4>Open-Source Contributions</h4>
+            <p>Engaging with open-source communities, studying production codebases, and submitting pull requests.</p>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <h4>Industry Experience</h4>
+            <p>Securing internships and professional placement opportunities to work alongside senior engineering teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Connect With Me</h2>
+        </div>
+        <div class="contact-card">
+          <p class="contact-lead">
+            I am always excited to discuss engineering, open-source projects, and internship opportunities.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com" class="contact-button">
+              <i class="fa-solid fa-envelope"></i> your.email@example.com
+            </a>
+            <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <i class="fa-brands fa-github"></i> GitHub Profile
+            </a>
+            <a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn Network
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="currentYear"></span> Deepak Kumar. Built with clean HTML5, CSS3, & Vanilla JS.</p>
+      <div class="footer-links">
+        <a href="#home">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
